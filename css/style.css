@@ -1,0 +1,312 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+
+}
+ul, oi{
+    list-style: none;
+}
+
+/* =================================
+    common css end
+===================================== */
+
+/* =================================
+      navbar part start
+==================================== */
+nav{
+    background: #1C1E53;
+    padding: 16px 0px;
+}
+.navbar-nav{
+    column-gap: 32px;
+}
+.nav-link{
+    color: #a0a0b3;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 0px !important;
+    transition: .5s;
+}
+.nav-link:hover{
+    color: white;
+}
+.button{
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 16px 48px;
+    border: 1px solid #BBBBCB;
+    border-radius: 41px;
+    margin-left: 48px;
+    transition: .5s;
+}
+.button:hover{
+    background: #747171;
+    color: white;
+}
+
+/* =================================
+      navbar part end
+==================================== */
+/* =================================
+      banner part start
+==================================== */
+.banner-part{
+    background: #1C1E53;
+    padding: 128px 0px;
+}
+.text h1{
+    color: white;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+.text p{
+    width: 562px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+.view{
+    background: #FCD980;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 41px;
+    padding: 16px 56px;
+    font-family: "Manrope", sans-serif;
+    transition: .5s;
+}
+.view:hover{
+    background: #f1f0ef;
+}
+.price{
+    color: white;
+    margin-left: 40px;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    opacity: 0;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+.price:hover .icon{
+    left: 110px;
+    opacity: 1;
+}
+/* =================================
+      banner part end
+==================================== */
+/* =================================
+      work part start
+==================================== */
+.work{
+    padding: 128px 0px;
+
+}
+.wro h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+
+}
+.wro p{
+    width: 405px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px
+
+}
+.work .box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work .box .item{
+    width: 50%;
+}
+.work .box .item h5{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    font-family: "Poppins", sans-serif;
+
+}
+.work .box .item p{
+    width: 303px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 8px;
+    margin-bottom: 48px;
+
+}
+.work .bd{
+    position: relative;
+    display: inline-block;
+} 
+.work .bd-icon{
+    position: absolute;
+    left: 145px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .5s;
+}
+.work .bd:hover .bd-icon{
+    left: 160px;
+    opacity: 1;
+}
+/* =================================
+      work part end
+==================================== */
+/* =================================
+      project part start
+==================================== */
+.project{
+    padding: 128px 0px;
+
+}
+.project .trx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.project h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+}
+.project .bnm a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.project .bnm .trx-icon{
+    position: absolute;
+    top: 50%;
+    left: 85px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .5s;
+}
+.project .bnm:hover .trx-icon{
+    left: 100px;
+    opacity: 1;
+}
+
+.project .item-img{
+    width: 415px;
+    height: 284px;
+    margin-bottom: 32px;
+}
+.project .project-box{
+    position: relative;
+}
+.project .overly h6{
+    width: 313px;
+    color: #ffffff;
+    margin: 312px 35px 16px 48px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+}
+.project .overly p{
+    width: 293px;
+    color: #ffffff;
+    margin: 0px 55px 40px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+
+}
+.project .overly a{
+    color: #FCD980;
+    margin: 0px 76px 208px 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.project .overly{
+    position: absolute;
+    background:linear-gradient(rgba(28, 30, 83, 0.70),#1C1E53);
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    transform: scaleX(0);
+    transition: .5s;
+    transform-origin: left;
+}
+.project .project-box:hover .overly{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.project .project-bd{
+    position: relative;
+}
+
+.project .overly-box{
+    position: absolute;
+    background:linear-gradient(rgba(28, 30, 83, 0.644),#1C1E53);
+    width: 100%;
+    height: 90%;
+    top: 0%;
+    left: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .5s;
+}
+.project .overly-box h6{
+    color: white;
+    margin: 129px 46px 10px 46px ;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+
+}
+.project .overly-box a{
+    color: #FCD980;
+    margin-left: 46px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+}
+.project .project-bd:hover .overly-box{
+    transform-origin: top;
+    transform: scaleY(1);
+}
+/* =================================
+      project part end
+==================================== */
