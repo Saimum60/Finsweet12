@@ -310,3 +310,129 @@ nav{
 /* =================================
       project part end
 ==================================== */
+/* =================================
+      features part start
+==================================== */
+.features{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+.features .fea-text h6{
+    color: #282938;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+
+}
+.features .fea-text h2{
+    color: #282938;
+    width: 630px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+    padding: 12px 0px 47px 0px;
+}
+.features .card {
+   width: 100% !important;
+   padding: 58px 32px 48px 48px;
+   border: none;
+   border-radius: 0;
+     
+}
+.features .card .card-img-top{
+    width: 7%;
+}
+.features .card .card-body{
+    padding: 0;
+}
+.features .card .card-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+    padding: 22px 0px 12px 0px;
+} 
+.features .card .card-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.features .row{
+    row-gap: 24px;
+}
+/* =================================
+      features part end
+==================================== */
+/* =================================
+      about part start
+==================================== */
+.about {
+    padding: 130px 0px;
+}
+.about h3{
+    width: 327px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    font-family: "Poppins", sans-serif;
+    
+
+}
+.about p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    
+}
+.about h4{
+    width: 843px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    font-family: "Poppins", sans-serif;
+}
+.about .about-wrp{
+    padding: 51px 0px ;
+    display: flex;
+}
+.about .about-img{
+    width: 52px;
+    height: 52px;
+    
+   
+}
+.about .about-text{
+    padding-left: 14px;
+
+
+}
+.about .about-text h5{
+    width: 183px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+   
+    
+}
+.about .about-text p{
+    width: 183px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+   
+    
+}
+
+/* =================================
+      about part end
+==================================== */
