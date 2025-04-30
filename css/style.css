@@ -375,6 +375,7 @@ nav{
 ==================================== */
 .about {
     padding: 130px 0px;
+    background: #F4F6FC;
 }
 .about h3{
     width: 327px;
@@ -435,4 +436,66 @@ nav{
 
 /* =================================
       about part end
+==================================== */
+/* =================================
+      FAQ part start
+==================================== */
+.faq{
+    padding: 128px;
+}
+.faq .faq-text1 h3{
+    width: 328px;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 16px;
+
+}
+.faq .faq-text1 a{
+    width: 220px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.faq .accordion-item{
+    border: none;
+}
+.faq .accordion-button{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.faq .accordion-body{
+    color: #282938;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 0 105px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #ECECF1;
+} 
+.faq .accordion-button span{
+    color: #2405F2;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-right: 60px;
+}
+.faq .accordion-button::after{
+    content: "+";
+    background-image: none !important;
+    transform: rotate(0);
+    transform: translateY(-50%);
+
+}
+.faq .accordion-button:not(.collapsed)::after {
+    content: "x";
+    transform: rotate(0);
+    transform: translateY(-50%);
+}
+/* =================================
+      FAQ part end
 ==================================== */
