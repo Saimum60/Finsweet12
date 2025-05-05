@@ -499,3 +499,232 @@ nav{
 /* =================================
       FAQ part end
 ==================================== */
+/* =================================
+      inqure part start
+==================================== */
+.inqure{
+    padding: 128px 0px 77px 0px;
+}
+.inqure .img-qure{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.inqure .img-qure img{
+    width: 100%;
+}
+.inqure .cov{
+    background: #1C1E5380;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: .5s;
+}
+.inqure .img-qure:hover .cov{
+    left: 0px;
+}
+.inqure .cov h4{
+    color: white;
+    font-size: 54px;
+    line-height: 74px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 96px 96px 0px 96px;
+}
+.inqure .cov p{
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 24px 96px 261px 96px;
+}
+.inqure-part2{
+    height: 100%;
+    background: #1C1E53;
+    padding-left: 96px;
+    padding-right: 90px;
+}
+.inqure-part2 h4{
+    color: white;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 96px;
+}
+.inqure-part2 p{
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 8px;
+    padding-bottom: 28px;
+}
+
+.inqure .inqure-part2 input{
+    width: 100%;
+    padding: 18px 32px;
+    background: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.051);
+    margin: 10px 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.inqure .inqure-part2 input::placeholder{
+    color: #F4F6FC;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.inqure .inqure-part2 button{
+    width: 100%;
+    padding: 16px 150px;
+    background: #FCD980;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    border-radius: 41px;
+    color: #1B1C2B;
+
+}
+.inqure .inqure-part2 a{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    padding-left: 94px ;
+   
+}
+.inqure .gg{
+    padding-top: 20px;
+}
+.inqure .inqure-part2 i{
+    position: absolute;
+    left: 284px;
+    top: 60%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .5s;
+}
+.inqure .inqure-part2 a:hover i{
+    left: 295px;
+    opacity: 1;
+}
+/* =================================
+      inqure part end
+==================================== */
+/* =================================
+      blog part start
+==================================== */
+.blog .card img{
+    border-radius: 0px !important;
+}
+.blog .blog-top{
+    color: #282938;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 64px;
+
+}
+.blog .card{
+    width: 405px !important;
+    border: 0px;
+}
+.blog .card-body{
+    padding-left: 0px !important;
+    padding-bottom: 179px;
+}
+.blog .card .card-title{
+    color: #282938;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.blog .card .card-text{
+    color: #282938;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 32px;
+}
+.blog .card a{
+    color: #282938;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.blog .card i{
+    position: absolute;
+    top:30%;
+    left: 100px;
+    transform: translateX(-30%);
+    transition: .5s;
+    opacity: 0;
+}
+.blog a:hover i{
+    left: 110px;
+    opacity: 1;
+}
+
+/* =================================
+      blog part end
+==================================== */
+/* =================================
+      footer part start
+==================================== */
+
+.footer{
+    background: #1C1E53;
+    padding: 100px;
+}
+.footer p{
+    color: #FFFFFF;
+    width: 399px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+}
+.footer .footer-part2 h3{
+    color: #FFFFFF;
+    width: 333px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+.footer .footer-part2 p{
+    color: #FFFFFF;
+    width: 399px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.footer .icon{
+   background: white;
+}
+/* =================================
+      footer part end
+==================================== */
